@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p { 
+     display: block;
+     color: white;
+     background-color: red;
+}
+
+div:hover {
+    color: red;
+}
